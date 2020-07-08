@@ -1,23 +1,26 @@
 {
-  "name": "y",
+  "name": "portfolio",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://lilsaintdenzel.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages"
   },
   "author": "Progress Orish",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "node-sass": "^4.11.0"
   },
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lilsaintdenzel/denzelcodes.github.io.git"
+    "url": "git+https://github.com/lilsaintdenzel/portfolio.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/lilsaintdenzel/denzelcodes.github.io/issues"
+    "url": "https://github.com/lilsaintdenzel/portfolio.github.io/issues"
   },
-  "homepage": "https://github.com/lilsaintdenzel/denzelcodes.github.io#readme",
+  "homepage": "https://github.com/lilsaintdenzel/portfolio.github.io#readme",
   "description": ""
 }
